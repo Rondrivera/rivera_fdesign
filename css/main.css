@@ -1,0 +1,91 @@
+body{
+	margin-top:50px;
+}
+
+.hero{
+	background:
+	linear-gradient(
+		rgba(64, 64, 64, 0.45),
+		rgba(64, 64, 64, 0.45)
+
+		),
+	url('../img/central-park.png');
+	background-size: cover;
+	height:600px;
+	text-align: center;
+	color:white;
+}
+
+.main-section{
+	height:400px;
+}
+
+.hero-container{
+	width:50%;
+	padding-top:50px;
+}
+
+.hero-text{
+	font-size:56px;
+}
+
+.hero-support-text{
+	font-size:26px;
+}
+
+.white-background{
+	background-color: white;
+	border: white;
+}
+
+.next-steps-section{
+	background:#f4f4f4;
+	height: 450px
+}
+
+.home-shine{
+	background:
+	linear-gradient(
+		rgba(64, 64, 64, 0.45),
+		rgba(64, 64, 64, 0.45)
+
+		),
+	url('../img/seattle-we-work.jpg');
+	background-size: cover;
+	height:650px;
+	padding-top: 20px;
+}
+
+.home-shine-text{
+	color:white;
+	font-size: 56px;
+
+}
+
+.next-steps-text{
+	font-size: 20px;
+}
+
+.press img{
+	margin:0 20px;
+}
+
+footer{
+	height: 100px;
+	background-color: #1d1d1d;
+}
+
+/*
+Utility Classes*/
+
+.pt-50{
+	padding-top: 50px;
+}
+
+.pb-30{
+	padding-bottom:30px;
+}
+
+.pt-30{
+	padding-top: 30px;
+}
